@@ -1,0 +1,103 @@
+Scenario no1.)  using only JokeServer and Client
+
+Joke Client Console output:- 
+
+{classpath "C:\Users\Asus\Desktop\Distributed Sys\Finaal\out\production\Finaal" JokeClient}
+
+Now Communicating with : localhost, Port: 4545 //connects with Server on port 4545
+Please Enter your name or type (quit) to end:   // as you can se if you dont enter username it will not let you move ahead
+Please Enter your name or type (quit) to end: Tirth //entering a username
+
+Press enter to hear a joke or proverb: //simply press enter to get a joke as asked by professor 
+ 
+JB Tirth: Why did the chicken cross the playground? To get to the other slide.
+
+JD Tirth: Why did the tomato turn red? Because it saw the salad dressing!
+
+JA Tirth: Why was the math book sad? Because it had too many problems.
+
+JC Tirth: Why did the cookie go to the doctor? Because it was feeling crumbly. // will print jokes in random order as you can see (JB, JD,JC,JA) IT WILL BE Randomized again in the new cycle
+Joke Cycle Completed   // prints that a cycle is completed
+
+
+JokeServer Console Output:-
+
+{classpath "C:\Users\Asus\Desktop\Distributed Sys\Finaal\out\production\Finaal" JokeServer}
+
+Starting Tirth's Joke Server 999.0, Listening At Port 4545.// printing that its listening for connections on port 4545 
+
+Starting Up Tirth's Mode Server 999.0, Listening At Port 5050. // printing that its listening for connections on port 5050  
+
+New client request from user Tirth //everytime we request for a joke/proverb it will print this statement
+New client request from user Tirth
+New client request from user Tirth
+New client request from user Tirth
+
+
+Scenario2.)with JokeClientAdmin
+
+JokeClientAdmin Console Output:-
+
+{classpath "C:\Users\Asus\Desktop\Distributed Sys\Finaal\out\production\Finaal" JokeClientAdmin}
+
+Now Connected with : localhost, Port: 5050 // connect with JokeServer on port 5050
+Press Enter to Toggle Between Modes //Simply press enter to switch between modes
+
+
+Switched to Proverb Mode//as you can see we switched to proverb mode first as we were in the joke mode by default
+Switched to Joke Mode // again switched to joke mode for the output
+
+Switched to Proverb Mode // switched back in order to show output
+
+
+JokeServer Console Output:---
+
+Starting Tirth's Joke Server 999.0, Listening At Port 4545. 
+
+Starting Up Tirth's Mode Server 999.0, Listening At Port 5050. 
+
+New client request from user Tirth
+New client request from user Tirth
+New client request from user Tirth
+New client request from user Tirth // up until Scenario 1
+Switched to Proverb Mode // we are getting message when we switch modes
+Switched to Joke Mode // we are getting message when we switch modes
+Switched to Proverb Mode // we are getting message when we switch modes
+New client request from user Tirth
+New client request from user Tirth
+New client request from user Tirth
+New client request from user Tirth
+
+JokeClient Console Output:---
+
+Now Communicating with : localhost, Port: 4545
+Please Enter your name or type (quit) to end: 
+Please Enter your name or type (quit) to end: Tirth
+
+Press enter to hear a joke or proverb: 
+ 
+JB Tirth: Why did the chicken cross the playground? To get to the other slide.
+
+JD Tirth: Why did the tomato turn red? Because it saw the salad dressing!
+
+JA Tirth: Why was the math book sad? Because it had too many problems.
+
+JC Tirth: Why did the cookie go to the doctor? Because it was feeling crumbly.
+Joke Cycle Completed // up until Scenario 1
+
+PD Tirth: Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.
+
+PC Tirth: An apple a day keeps the doctor away.
+
+PB Tirth: A stitch in time saves nine.
+
+PA Tirth: Honesty is the best policy. // will print Proverbs in random order as you can see (PD, PC,PB,JA) IT WILL BE Randomized again in the new cycle
+Proverb Cycle Completed // Proverb Cycle Completed!!!
+
+
+
+
+
+
+
+
