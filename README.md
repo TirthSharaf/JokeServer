@@ -12,7 +12,7 @@ This project is a multi-threaded client-server system in Java, which supports co
 
 
 
-# Key Features:
+## Key Features:
 
 • Multi-threading: The server is designed to handle multiple client requests simultaneously, demonstrating a multi-processing environment.
 
@@ -22,7 +22,7 @@ This project is a multi-threaded client-server system in Java, which supports co
 
 
 
-# Technical Details:
+## Technical Details:
 
 • The server can handle multiple worker threads, each representing a client connection, allowing for scalability.
 
@@ -33,7 +33,7 @@ This project is a multi-threaded client-server system in Java, which supports co
 • Basic logging of client-server interactions can be captured manually via console output to a log file.
 
 
-# How to Run the Project:
+## How to Run the Project:
 
 • Compile all files using javac *.java (executed twice).
 
@@ -44,11 +44,11 @@ This project is a multi-threaded client-server system in Java, which supports co
 • The clients can send requests to the server, and the administration client can change server modes.
 
 
-# Custom Modifications:
+## Custom Modifications:
 • Added comments throughout the code to explain how client-server communication is managed.
 
 •Implemented a simplified logging mechanism to capture client-server interactions.
 
 
-This project provided valuable experience in building a multi-threaded client-server system while managing multiple concurrent client connections. It also helped me understand the complexities of maintaining client state in a stateless protocol environment.
+## This project provided valuable experience in building a multi-threaded client-server system while managing multiple concurrent client connections. It also helped me understand the complexities of maintaining client state in a stateless protocol environment.
 
