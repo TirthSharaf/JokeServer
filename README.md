@@ -1,4 +1,4 @@
-#JokeServer - Multi-Threaded Client-Server Application in Java
+# JokeServer - Multi-Threaded Client-Server Application in Java
 
 This project is a multi-threaded client-server system in Java, which supports communication between multiple clients and the server, alongside an administration channel for server management. The project demonstrates fundamental concepts in network programming, threading, and state management for multiple simultaneous conversations.
 
