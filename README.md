@@ -2,7 +2,7 @@
 
 This project is a multi-threaded client-server system in Java, which supports communication between multiple clients and the server, alongside an administration channel for server management. The project demonstrates fundamental concepts in network programming, threading, and state management for multiple simultaneous conversations.
 
-# Project Overview:
+## Project Overview:
 
 • JokeServer.java: This is the main server file, handling client connections and processing requests. It manages multiple worker threads to allow simultaneous interactions with clients.
 
